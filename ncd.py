@@ -1,22 +1,18 @@
 import os
-import json
+from fastapi import FastAPI, HTTPException
 import geopandas as gpd
 from shapely.geometry import Point
-from fastapi import FastAPI, HTTPException
+import uvicorn
 
-# Initialize FastAPI app
 app = FastAPI()
 
-# Paths to your SHP files (Make sure these exist inside Render)
+# ✅ Paths to your SHP files (upload them to the server)
 DIVISIONS_SHP_PATH = "data/Divisions_RYK_Area.shp"
 NETWORK_SHP_PATH = "data/Irrigation_Network_RYK_Area.shp"
 
 
 def check_user_inside_divisions(user_lon, user_lat):
     """Check if the user is inside any division polygon."""
-    if not os.path.exists(DIVISIONS_SHP_PATH):
-        raise HTTPException(status_code=500, detail=f"{DIVISIONS_SHP_PATH} not found")
-
     gdf_div = gpd.read_file(DIVISIONS_SHP_PATH)
 
     # Ensure CRS is EPSG:4326 (lat/lon)
@@ -34,9 +30,6 @@ def check_user_inside_divisions(user_lon, user_lat):
 
 def find_nearest_canals(user_lon, user_lat, k=3):
     """Find the k nearest canals to the user's location."""
-    if not os.path.exists(NETWORK_SHP_PATH):
-        raise HTTPException(status_code=500, detail=f"{NETWORK_SHP_PATH} not found")
-
     gdf_net = gpd.read_file(NETWORK_SHP_PATH)
 
     # Ensure CRS is EPSG:4326
@@ -57,7 +50,7 @@ def find_nearest_canals(user_lon, user_lat, k=3):
 
 @app.get("/")
 def home():
-    return {"message": "FastAPI is running on Render!"}
+    return {"message": "Python API is running!"}
 
 
 @app.get("/check-location")
@@ -71,6 +64,12 @@ def check_location(lat: float, lon: float):
             return {"nearest_canals": nearest_canals}
         else:
             return {"message": "You are not in the division"}
-    
+
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+
+# ✅ Fix: Dynamic Port Selection for Railway Deployment
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8000))  # Use Railway PORT if available
+    uvicorn.run(app, host="0.0.0.0", port=port)
