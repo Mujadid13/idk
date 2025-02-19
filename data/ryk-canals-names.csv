@@ -1,0 +1,257 @@
+IMIS_CODE,PARENT_CHA,ZONE_NAME,CIRCLE_NAM,CHANNEL_NA,CHANNEL_TY,DESIGNED_D
+3.11E+16,Punjnad H/W,Bahawalpur,Bahawalpur,Abbassia Link Canal,MC,5600
+3.11E+16,Abbassia Canal,Bahawalpur,Bahawalpur,6-R/AC Disty,D,19
+3.11E+16,Abbassia Canal,Bahawalpur,Bahawalpur,7-R/AC Disty,D,127
+3.11E+16,7-R/AC Disty,Bahawalpur,Bahawalpur,1-R/7-R Minor,M,37
+3.11E+16,Abbassia Canal,Bahawalpur,Bahawalpur,1-L/AC Disty,D,411
+3.11E+16,1-L/AC Disty,Bahawalpur,Bahawalpur,1-R/1-L Minor,M,31
+3.11E+16,1-L/AC Disty,Bahawalpur,Bahawalpur,2-R/1-L Minor,M,48
+3.11E+16,1-L/AC Disty,Bahawalpur,Bahawalpur,1-L/1-L Minor,M,131
+3.11E+16,1-L/1-L Minor,Bahawalpur,Bahawalpur,1-R/1-L/1-L Sub Minor,SM,23
+3.11E+16,1-L/AC Disty,Bahawalpur,Bahawalpur,2-L/1-L Minor,M,70
+3.11E+16,1-L/AC Disty,Bahawalpur,Bahawalpur,3-L/1-L Minor,M,18
+3.11E+16,Abbassia Canal,Bahawalpur,Bahawalpur,Basit Disty,D,34
+3.11E+16,Abbassia Feeder,Bahawalpur,Rahimyar Khan,Lower Amir Din Disty,D,15.5
+3.11E+16,Minchin Branch,Bahawalpur,Rahimyar Khan,Upper Amir Din Disty,D,18
+3.11E+16,Minchin Branch,Bahawalpur,Rahimyar Khan,Link Disty,D,39
+3.11E+16,Minchin Branch,Bahawalpur,Rahimyar Khan,Jamal Disty,D,10
+3.11E+16,Minchin Branch,Bahawalpur,Rahimyar Khan,Dashtian Disty,D,9
+3.11E+16,Minchin Branch,Bahawalpur,Rahimyar Khan,Sherin Disty,D,232
+3.11E+16,Sherin Disty,Bahawalpur,Rahimyar Khan,Khanpur Minor,M,21
+3.11E+16,Sherin Disty,Bahawalpur,Rahimyar Khan,Lower Nawankot Minor,M,36
+3.11E+16,Sherin Disty,Bahawalpur,Rahimyar Khan,Sehja Minor,M,8
+3.11E+16,Minchin Branch,Bahawalpur,Rahimyar Khan,Abehayat Disty,D,683
+3.11E+16,Abehayat Disty,Bahawalpur,Rahimyar Khan,Rahim Minor,D,14
+3.11E+16,Abehayat Disty,Bahawalpur,Rahimyar Khan,Colony Minor,M,8
+3.11E+16,Abehayat Disty,Bahawalpur,Rahimyar Khan,Shadab Minor,M,36
+3.11E+16,Shadab Minor,Bahawalpur,Rahimyar Khan,Mondi Sub Minor,SM,23
+3.11E+16,Abehayat Disty,Bahawalpur,Rahimyar Khan,1/L Abehayat Minor,M,223
+3.11E+16,1/L Abehayat Minor,Bahawalpur,Rahimyar Khan,1R/IL Abehayat Sub Minor,SM,22
+3.11E+16,1/L Abehayat Minor,Bahawalpur,Rahimyar Khan,2R/IL Abehayat Sub Minor,SM,2
+3.11E+16,Abehayat Disty,Bahawalpur,Rahimyar Khan,Pir Chanan Minor,M,18
+3.11E+16,Abehayat Disty,Bahawalpur,Rahimyar Khan,Jhole Minor,M,19
+3.11E+16,Abehayat Disty,Bahawalpur,Rahimyar Khan,Shergarh Minor,M,47
+3.11E+16,Sherin Disty,Bahawalpur,Rahimyar Khan,Nazir Minor,M,16
+3.11E+16,Sherin Disty,Bahawalpur,Rahimyar Khan,Bakhshan Minor,M,12
+3.11E+16,Lower Haji Disty,Bahawalpur,Rahimyar Khan,Bahishti Minor,M,13
+3.11E+16,Sherin Disty,Bahawalpur,Rahimyar Khan,Lower Haji Disty,D,78
+3.11E+16,Rahimyar Khan Branch,Bahawalpur,Rahimyar Khan,Sultan Pur Disty,D,37
+3.11E+16,Rahimyar Khan Branch,Bahawalpur,Rahimyar Khan,Azim Disty,D,13
+3.11E+16,Rahimyar Khan Branch,Bahawalpur,Rahimyar Khan,Tarinda Disty,D,231
+3.11E+16,Tarinda Disty,Bahawalpur,Rahimyar Khan,Channa Minor,M,8
+3.11E+16,Tarinda Disty,Bahawalpur,Rahimyar Khan,Pattan Munara Minor,M,79
+3.11E+16,Pattan Munara Mionr,Bahawalpur,Rahimyar Khan,Akbar Sub Minor,M,9
+3.11E+16,Tarinda Disty,Bahawalpur,Rahimyar Khan,Jue Sheer Minor,M,14
+3.11E+16,Sadiq Feeder,Bahawalpur,Rahimyar Khan,Nasim Disty,D,8
+3.11E+16,Sadiq Branch,Bahawalpur,Rahimyar Khan,Adam Sohaba Disty,D,460
+3.11E+16,Adam Sohaba Disty,Bahawalpur,Rahimyar Khan,Naushera Minor,M,57
+3.11E+16,Adam Sohaba Disty,Bahawalpur,Rahimyar Khan,Sianwar Minor,M,138
+3.11E+16,Sianwar Minor,Bahawalpur,Rahimyar Khan,Barthla Sub Minor,M,7
+3.11E+16,Sianwar Minor,Bahawalpur,Rahimyar Khan,Lunda Sub Minor,M,6
+3.11E+16,Sianwar Minor,Bahawalpur,Rahimyar Khan,Chandrami Sub Minor,M,29
+3.11E+16,Sianwar Minor,Bahawalpur,Rahimyar Khan,Akil Sub Minor,M,5
+3.11E+16,Adam Sohaba Disty,Bahawalpur,Rahimyar Khan,Bangla Minor,M,6
+3.11E+16,Adam Sohaba Disty,Bahawalpur,Rahimyar Khan,Mandi Minor,M,11
+3.11E+16,Adam Sohaba Disty,Bahawalpur,Rahimyar Khan,Wadera Minor,M,18
+3.11E+16,Adam Sohaba Disty,Bahawalpur,Rahimyar Khan,Tibbi Minor,M,25
+3.11E+16,Adam Sohaba Disty,Bahawalpur,Rahimyar Khan,Bindoor Minor,M,88
+3.11E+16,Bindoor Minor,Bahawalpur,Rahimyar Khan,Ther Sub Minor,M,17
+3.11E+16,Sadiq Branch,Bahawalpur,Rahimyar Khan,Kausar Disty,D,14
+3.11E+16,Sadiq Branch,Bahawalpur,Rahimyar Khan,Nishat Disty,D,8
+3.11E+16,Sadiq Branch,Bahawalpur,Rahimyar Khan,Upper Wah Faquiran Disty,D,3
+3.11E+16,Sadiq Branch,Bahawalpur,Rahimyar Khan,Naushera Link Disty,D,3
+3.11E+16,Sadiq Branch,Bahawalpur,Rahimyar Khan,Lower Wah Faquiran Disty,D,9
+3.11E+16,Sadiq Branch,Bahawalpur,Rahimyar Khan,Kacha Disty,D,7
+3.11E+16,Sadiq Branch,Bahawalpur,Rahimyar Khan,Nal Disty,D,39
+3.11E+16,Nal Disty,Bahawalpur,Rahimyar Khan,Zarin Minor,M,12
+3.11E+16,Sadiq Branch,Bahawalpur,Rahimyar Khan,Kohna Disty,M,14
+3.11E+16,Sadiq Branch,Bahawalpur,Rahimyar Khan,Talla Disty,M,51
+3.11E+16,Sadiq Branch,Bahawalpur,Rahimyar Khan,Chamman Disty,D,67
+3.11E+16,Chamman Disty,Bahawalpur,Rahimyar Khan,1R-Chamamn Minor,M,14
+3.11E+16,Sadiq Branch,Bahawalpur,Rahimyar Khan,Manthar Disty,D,9
+3.11E+16,Sadiq Branch,Bahawalpur,Rahimyar Khan,Gullan Disty,D,273
+3.11E+16,Gullan Disty,Bahawalpur,Rahimyar Khan,Malu Minor,M,21
+3.11E+16,Gullan Disty,Bahawalpur,Rahimyar Khan,Bagh Minor,M,9
+3.11E+16,Gullan Disty,Bahawalpur,Rahimyar Khan,Lakhi Minor,M,99
+3.11E+16,Lakhi Minor,Bahawalpur,Rahimyar Khan,Adohda Sub Minor,M,6
+3.11E+16,Lakhi Minor,Bahawalpur,Rahimyar Khan,1L-Lakhi Minor,M,24
+3.11E+16,1L-Lakhi Minor,Bahawalpur,Rahimyar Khan,1L/1L Lakhi Sub Minor,M,13
+3.11E+16,Sadiq Branch,Bahawalpur,Rahimyar Khan,Kandera Disty,D,89
+3.11E+16,Kandera Disty,Bahawalpur,Rahimyar Khan,1L-Kandera Minor,D,18
+3.11E+16,Kandera Disty,Bahawalpur,Rahimyar Khan,1R-Kandera Minor,M,11
+3.11E+16,Abbassia Canal,Bahawalpur,Bahawalpur,Abbassia Feeder,MC,3580
+3.11E+16,Minchin Branch,Bahawalpur,Rahimyar Khan,Sadiq Feeder,BC,2184
+3.11E+16,Punjnad H/W,Bahawalpur,Bahawalpur,Abbassia Canal,MC,1394
+3.11E+16,Banwah Disty,Bahawalpur,Bahawalpur,Khalifa Minor,M,22.97
+3.11E+16,Abbassia Canal,Bahawalpur,Bahawalpur,Bukhari Disty,D,13.35
+3.11E+16,Abbassia Canal,Bahawalpur,Bahawalpur,Mamoon Disty,D,14.63
+3.11E+16,Abbassia Canal,Bahawalpur,Bahawalpur,Karamwah Disty,D,57
+3.11E+16,Karamwah Disty,Bahawalpur,Bahawalpur,Tasneem Minor,M,7.64
+3.11E+16,Abbassia Canal,Bahawalpur,Bahawalpur,1-R/AC Disty,D,45
+3.11E+16,1-R/AC Disty,Bahawalpur,Bahawalpur,1-L/1-R/AC Minor,M,19
+3.11E+16,3-R/AC Disty,Bahawalpur,Bahawalpur,2-R/AC Disty,D,57
+3.11E+16,Abbassia Canal,Bahawalpur,Bahawalpur,3-R/AC Disty,D,401
+3.11E+16,3-R/AC Disty,Bahawalpur,Bahawalpur,1AL/3-R/AC Minor,M,13
+3.11E+16,3-R/AC Disty,Bahawalpur,Bahawalpur,1-R/3-R Minor,M,62
+3.11E+16,1-R/3-R Minor,Bahawalpur,Bahawalpur,1-L/1-R/3-R Sub Minor,SM,10.5
+3.11E+16,1-R/3-R Minor,Bahawalpur,Bahawalpur,1-R/1-R/3-R Sub Minor,SM,22
+3.11E+16,3-R/AC Disty,Bahawalpur,Bahawalpur,1-L/3-R Minor,M,7
+3.11E+16,Abbassia Canal,Bahawalpur,Bahawalpur,4-R/AC Disty,D,10
+3.11E+16,Abbassia Canal,Bahawalpur,Bahawalpur,5-R/AC Disty,D,22
+3.11E+16,Punjnad H/W,Bahawalpur,Bahawalpur,Punjnad Main Line,MC,10484
+3.11E+16,Punjnad Main Line,Bahawalpur,Rahimyar Khan,Malkani Escape,E,2364
+3.11E+16,Punjnad Main Line,Bahawalpur,Rahimyar Khan,Shikrani Disty,D,30
+3.11E+16,Punjnad Main Line,Bahawalpur,Rahimyar Khan,Bhalla Jhulan Disty,D,26
+3.11E+16,Punjnad Main Line,Bahawalpur,Rahimyar Khan,Noor Wala Disty,D,21
+3.11E+16,Punjnad Main Line,Bahawalpur,Rahimyar Khan,Mohand Disty,D,67
+3.11E+16,Mohand Disty,Bahawalpur,Rahimyar Khan,Tahir Minor,M,12
+3.11E+16,Punjnad Main Line,Bahawalpur,Rahimyar Khan,Sangla Disty,D,196
+3.11E+16,Sangla Disty,Bahawalpur,Rahimyar Khan,Trukari Minor,M,69
+3.11E+16,Sangla Disty,Bahawalpur,Rahimyar Khan,Ghazipur Minor,M,63
+3.11E+16,Ghazipur Minor,Bahawalpur,Rahimyar Khan,Gurgage Sub Minor,SM,13
+3.11E+16,Punjnad Main Line,Bahawalpur,Rahimyar Khan,Behari Disty,D,399
+3.11E+16,Behari Disty,Bahawalpur,Rahimyar Khan,Dhari Minor,M,12
+3.11E+16,Behari Disty,Bahawalpur,Rahimyar Khan,Sidhu Wali Minor,M,16
+3.11E+16,Behari Disty,Bahawalpur,Rahimyar Khan,Malikpur Minor,M,11.5
+3.11E+16,Behari Disty,Bahawalpur,Rahimyar Khan,Choudhari Minor,M,42
+3.11E+16,Behari Disty,Bahawalpur,Rahimyar Khan,Shamas Minor,M,60
+3.11E+16,Behari Disty,Bahawalpur,Rahimyar Khan,Allahabad Minor,M,169
+3.11E+16,Allahabad Minor,Bahawalpur,Rahimyar Khan,Metla Sub Minor,SM,64
+3.11E+16,Allahabad Minor,Bahawalpur,Rahimyar Khan,Pathan Sub Minor,SM,10
+3.11E+16,Punjnad Main Line,Bahawalpur,Rahimyar Khan,Thulhamza Disty,D,32
+3.11E+16,Punjnad Main Line,Bahawalpur,Rahimyar Khan,Gabol Disty,D,30
+3.11E+16,Punjnad Main Line,Bahawalpur,Rahimyar Khan,Moghala Disty,D,38
+3.11E+16,Moghala Disty,Bahawalpur,Rahimyar Khan,Dasti Minor,M,8
+3.11E+16,Punjnad Main Line,Bahawalpur,Rahimyar Khan,Khanbela Disty,D,151
+3.11E+16,Khanbela Disty,Bahawalpur,Rahimyar Khan,Duphli Minor,M,23
+3.11E+16,Khanbela Disty,Bahawalpur,Rahimyar Khan,Gabar Minor,M,17
+3.11E+16,Punjnad Main Line,Bahawalpur,Rahimyar Khan,Unran Disty,D,48
+3.11E+16,Punjnad Main Line,Bahawalpur,Rahimyar Khan,Shedani Disty,D,41
+3.11E+16,Punjnad Main Line,Bahawalpur,Rahimyar Khan,Chachran Disty,D,80
+3.11E+16,Chachran Disty,Bahawalpur,Rahimyar Khan,Smoka Minor,M,29
+3.11E+16,Punjnad Main Line,Bahawalpur,Rahimyar Khan,Raj Disty,D,67
+3.11E+16,Punjnad Main Line,Bahawalpur,Rahimyar Khan,Rahim Disty,D,93
+3.11E+16,Rahim Disty,Bahawalpur,Rahimyar Khan,Ghous Minor,M,23
+3.11E+16,Rahim Disty,Bahawalpur,Rahimyar Khan,Qabool Minor,M,5
+3.11E+16,Punjnad Main Line,Bahawalpur,Rahimyar Khan,Hamid Disty,D,29
+3.11E+16,Punjnad Main Line,Bahawalpur,Rahimyar Khan,Mehmood Disty,D,47
+3.11E+16,Punjnad Main Line,Bahawalpur,Rahimyar Khan,Upper Qadir Disty,D,30
+3.11E+16,Punjnad Main Line,Bahawalpur,Rahimyar Khan,Hassan Disty,D,45
+3.11E+16,Hassan Disty,Bahawalpur,Rahimyar Khan,Sanghi Minor,M,22
+3.11E+16,Punjnad Main Line,Bahawalpur,Rahimyar Khan,Rukan Disty,D,242
+3.11E+16,Rukan Disty,Bahawalpur,Rahimyar Khan,Farid Minor,M,50
+3.11E+16,Rukan Disty,Bahawalpur,Rahimyar Khan,Faiz Minor,M,8
+3.11E+16,Rukan Disty,Bahawalpur,Rahimyar Khan,Rasool Minor,M,40
+3.11E+16,Rukan Disty,Bahawalpur,Rahimyar Khan,Kabira Minor,M,34
+3.11E+16,Punjnad Main Line,Bahawalpur,Rahimyar Khan,Minchin Branch,MC,1527
+3.11E+16,Minchin Branch,Bahawalpur,Rahimyar Khan,Janpur Disty,D,11
+3.11E+16,Minchin Branch,Bahawalpur,Rahimyar Khan,Upper Rindan Disty,D,5
+3.11E+16,Minchin Branch,Bahawalpur,Rahimyar Khan,Lower Rindan Disty,D,10
+3.11E+16,Minchin Branch,Bahawalpur,Rahimyar Khan,Sharif Disty,D,68
+3.11E+16,Sharif Disty,Bahawalpur,Rahimyar Khan,Channeli Minor,M,10
+3.11E+16,Minchin Branch,Bahawalpur,Rahimyar Khan,Bandoqi Disty,D,37
+3.11E+16,Minchin Branch,Bahawalpur,Rahimyar Khan,Upper Nawankot Disty,D,292
+3.11E+16,Upper Nawankot Disty,Bahawalpur,Rahimyar Khan,Paccalaran Minor,M,18
+3.11E+16,Upper Nawankot Disty,Bahawalpur,Rahimyar Khan,Ashraf Minor,M,12
+3.11E+16,Upper Nawankot Disty,Bahawalpur,Rahimyar Khan,Kawani Minor,M,28
+3.11E+16,Upper Nawankot Disty,Bahawalpur,Rahimyar Khan,Galkala Minor,M,42
+3.11E+16,Galkala Minor,Bahawalpur,Rahimyar Khan,Lalu Sub Minor,SM,20
+3.11E+16,Upper Nawankot Disty,Bahawalpur,Rahimyar Khan,Faiz Minor,M,18
+3.11E+16,Minchin Branch,Bahawalpur,Rahimyar Khan,Kandani Disty,D,22
+3.11E+16,Minchin Branch,Bahawalpur,Rahimyar Khan,Thereposti Disty,D,55
+3.11E+16,Thereposti Disty,Bahawalpur,Rahimyar Khan,Gulzar Minor,M,17
+3.11E+16,Minchin Branch,Bahawalpur,Rahimyar Khan,Arif Disty,D,29
+3.11E+16,Minchin Branch,Bahawalpur,Rahimyar Khan,Chuhar Disty,D,40
+3.11E+16,Chuhar Disty,Bahawalpur,Rahimyar Khan,Feroza Minor,M,8
+3.11E+16,Punjnad Main Line,Bahawalpur,Rahimyar Khan,Rahimyar Khan Branch,BC,1291
+3.11E+16,Rahimyar Khan Branch,Bahawalpur,Rahimyar Khan,Habib Disty,D,27
+3.11E+16,Rahimyar Khan Branch,Bahawalpur,Rahimyar Khan,Saaidan Disty,D,18
+3.11E+16,Rahimyar Khan Branch,Bahawalpur,Rahimyar Khan,Kararu Disty,D,65
+3.11E+16,Kararu Disty,Bahawalpur,Rahimyar Khan,Mudhu Minor,M,15
+3.11E+16,Rahimyar Khan Branch,Bahawalpur,Rahimyar Khan,Sher Disty,D,20
+3.11E+16,Rahimyar Khan Branch,Bahawalpur,Rahimyar Khan,3L-Haji Disty,D,199
+3.11E+16,3L-Haji Disty,Bahawalpur,Rahimyar Khan,Chak  Minor,M,23
+3.11E+16,Rahimyar Khan Branch,Bahawalpur,Rahimyar Khan,4L-Ikhtiar Disty,D,117
+3.11E+16,4L-Ikhtiar Disty,Bahawalpur,Rahimyar Khan,Jajja Minor,M,12
+3.11E+16,Rahimyar Khan Branch,Bahawalpur,Rahimyar Khan,Gahzi Disty,D,39
+3.11E+16,Rahimyar Khan Branch,Bahawalpur,Rahimyar Khan,Dina Disty,D,49
+3.11E+16,Rahimyar Khan Branch,Bahawalpur,Rahimyar Khan,Kotla Disty,D,10
+3.11E+16,Rahimyar Khan Branch,Bahawalpur,Rahimyar Khan,Ghagri Disty,D,19
+3.11E+16,Rahimyar Khan Branch,Bahawalpur,Rahimyar Khan,Mau Makhdoom Disty,D,98
+3.11E+16,Rahimyar Khan Branch,Bahawalpur,Rahimyar Khan,Jalal Pur Disty,D,12
+3.11E+16,Rahimyar Khan Branch,Bahawalpur,Rahimyar Khan,Gabolan Disty,D,26
+3.11E+16,Rahimyar Khan Branch,Bahawalpur,Rahimyar Khan,Punnu Disty,D,13
+3.11E+16,Rahimyar Khan Branch,Bahawalpur,Rahimyar Khan,5R-Yousaf Disty,D,52
+3.11E+16,Rahimyar Khan Branch,Bahawalpur,Rahimyar Khan,8L-Kot Samaba Disty,D,27
+3.11E+16,Rahimyar Khan Branch,Bahawalpur,Rahimyar Khan,Mau Mubarik Disty,D,33
+3.11E+16,Punjnad Main Line,Bahawalpur,Rahimyar Khan,Sadiq Branch,BC,1383
+3.11E+16,Sadiq Branch,Bahawalpur,Rahimyar Khan,Kudden Disty,D,43
+3.11E+16,Sadiq Branch,Bahawalpur,Rahimyar Khan,Fateh Pur Disty,D,19
+3.11E+16,Sadiq Branch,Bahawalpur,Rahimyar Khan,Mehran Disty,D,35
+3.11E+16,Sadiq Branch,Bahawalpur,Rahimyar Khan,Upper Chak Abbas Disty,D,14
+3.11E+16,Sadiq Branch,Bahawalpur,Rahimyar Khan,Lower Chak Abbas Disty,D,12
+3.11E+16,Sadiq Branch,Bahawalpur,Rahimyar Khan,Amin Ghar Disty,D,48
+3.11E+16,Punjnad Main Line,Bahawalpur,Rahimyar Khan,Dallas Branch Canal,BC,2604
+3.11E+16,Dallas Branch Canal,Bahawalpur,Rahimyar Khan,I-Hassan Disty,D,6
+3.11E+16,Dallas Branch Canal,Bahawalpur,Rahimyar Khan,II-Hassan Disty,D,6
+3.11E+16,Dallas Branch Canal,Bahawalpur,Rahimyar Khan,Faiz Lower Disty,D,8
+3.11E+16,Dallas Branch Canal,Bahawalpur,Rahimyar Khan,Ehsan Disty,D,17
+3.11E+16,Dallas Branch Canal,Bahawalpur,Rahimyar Khan,Abadpur Disty,D,15
+3.11E+16,Abadpur Disty,Bahawalpur,Rahimyar Khan,Ehsan Lower Minor,M,4
+3.11E+16,Dallas Branch Canal,Bahawalpur,Rahimyar Khan,Nazim Disty,D,9
+3.11E+16,Dallas Branch Canal,Bahawalpur,Rahimyar Khan,Grey Disty,D,370
+3.11E+16,Grey Disty,Bahawalpur,Rahimyar Khan,Khudai Minor,M,11
+3.11E+16,Grey Disty,Bahawalpur,Rahimyar Khan,Qurashin Minor,M,18
+3.11E+16,Grey Disty,Bahawalpur,Rahimyar Khan,Adam Wali Minor,M,169
+3.11E+16,Adam Wali Minor,Bahawalpur,Rahimyar Khan,Roshan Sub Minor,SM,34
+3.11E+16,Adam Wali Minor,Bahawalpur,Rahimyar Khan,Ranja Sub Minor,SM,16
+3.11E+16,Nazim Disty,Bahawalpur,Rahimyar Khan,Nunary Disty,D,11
+3.11E+16,Dallas Branch Canal,Bahawalpur,Rahimyar Khan,Noor Disty,D,13
+3.11E+16,Dallas Branch Canal,Bahawalpur,Rahimyar Khan,Makhan Disty,D,29
+3.11E+16,Dallas Branch Canal,Bahawalpur,Rahimyar Khan,Degi Disty,D,370
+3.11E+16,Degi Disty,Bahawalpur,Rahimyar Khan,Bahadar Minor,M,21
+3.11E+16,Degi Disty,Bahawalpur,Rahimyar Khan,Badli Minor,M,24
+3.11E+16,Degi Disty,Bahawalpur,Rahimyar Khan,Kikri Minor,M,27
+3.11E+16,Degi Disty,Bahawalpur,Rahimyar Khan,Muhammad Minor,M,60
+3.11E+16,Dallas Branch Canal,Bahawalpur,Rahimyar Khan,Sharin Disty,D,103
+3.11E+16,Sharin Disty,Bahawalpur,Rahimyar Khan,Khan Minor,M,74
+3.11E+16,Dallas Branch Canal,Bahawalpur,Rahimyar Khan,Mazari Disty,D,24
+3.11E+16,Dallas Branch Canal,Bahawalpur,Rahimyar Khan,Rauti Disty,D,28
+3.11E+16,Dallas Branch Canal,Bahawalpur,Rahimyar Khan,Malook Disty,D,27
+3.11E+16,Dallas Branch Canal,Bahawalpur,Rahimyar Khan,Jamal Disty,D,27
+3.11E+16,Dallas Branch Canal,Bahawalpur,Rahimyar Khan,Lamma Disty,D,700
+3.11E+16,Lamma Disty,Bahawalpur,Rahimyar Khan,Ghari Minor,M,18
+3.11E+16,Lamma Disty,Bahawalpur,Rahimyar Khan,Daulat Minor,M,31
+3.11E+16,Daulat Minor,Bahawalpur,Rahimyar Khan,Wasa Sub Minor,SM,5
+3.11E+16,Lamma Disty,Bahawalpur,Rahimyar Khan,Dandam Minor,M,21
+3.11E+16,Lamma Disty,Bahawalpur,Rahimyar Khan,Mahar Minor,M,19
+3.11E+16,Lamma Disty,Bahawalpur,Rahimyar Khan,Ahmad Minor,M,15
+3.11E+16,Lamma Disty,Bahawalpur,Rahimyar Khan,Walana Minor,M,19
+3.11E+16,Lamma Disty,Bahawalpur,Rahimyar Khan,Alu Minor,M,12
+3.11E+16,Lamma Disty,Bahawalpur,Rahimyar Khan,Kot Minor,M,8
+3.11E+16,Lamma Disty,Bahawalpur,Rahimyar Khan,Dargahi Minor,M,11
+3.11E+16,Lamma Disty,Bahawalpur,Rahimyar Khan,Sabzal Minor,M,54
+3.11E+16,Sabzal Minor,Bahawalpur,Rahimyar Khan,Mohib Shah Sub Minor,M,9
+3.11E+16,Lamma Disty,Bahawalpur,Rahimyar Khan,Walhar Branch Disty,D,190
+3.11E+16,Walhar Branch Disty,Bahawalpur,Rahimyar Khan,Beg Minor,M,11
+3.11E+16,Walhar Branch Disty,Bahawalpur,Rahimyar Khan,Forest Minor,M,28
+3.11E+16,Walhar Branch Disty,Bahawalpur,Rahimyar Khan,Jalal Minor,M,16
+3.11E+16,Walhar Branch Disty,Bahawalpur,Rahimyar Khan,Shahpur Minor,M,16
+3.11E+16,Walhar Branch Disty,Bahawalpur,Rahimyar Khan,Khalti Minor,M,39
+3.11E+16,Khalti Minor,Bahawalpur,Rahimyar Khan,Dhandi Sub Minor,SM,11
+3.11E+16,Dallas Branch Canal,Bahawalpur,Rahimyar Khan,Bhong Disty,D,829
+3.11E+16,Bhong Disty,Bahawalpur,Rahimyar Khan,Bhutta Minor,M,26
+3.11E+16,Bhong Disty,Bahawalpur,Rahimyar Khan,Mubarak Minor,M,72
+3.11E+16,Mubarak Minor,Bahawalpur,Rahimyar Khan,Leghari Sub Minor,SM,16.5
+3.11E+16,Bhong Disty,Bahawalpur,Rahimyar Khan,Nazir Minor,M,10
+3.11E+16,Bhong Disty,Bahawalpur,Rahimyar Khan,Ghazi Minor,M,18
+3.11E+16,Bhong Disty,Bahawalpur,Rahimyar Khan,Makharja Minor,M,21
+3.11E+16,Bhong Disty,Bahawalpur,Rahimyar Khan,Machka Minor,M,93
+3.11E+16,Bhong Disty,Bahawalpur,Rahimyar Khan,Fazil Branch Disty,D,323
+3.11E+16,Fazil Branch Disty,Bahawalpur,Rahimyar Khan,Kasmani Minor,M,128
+3.11E+16,Kasmani Minor,Bahawalpur,Rahimyar Khan,Noor pur Sub Minor,SM,29
+3.11E+16,Kasmani Minor,Bahawalpur,Rahimyar Khan,Mitha Sub Minor,SM,8
+3.11E+16,Fazil Branch Disty,Bahawalpur,Rahimyar Khan,Kander Minor,M,80
+3.11E+16,Kander Minor,Bahawalpur,Rahimyar Khan,Dinu Shah Minor,SM,33.5
+3.13E+16,Sultan Disty,Bahawalpur,Bahawalpur,Faiz Minor,M,45
+3.13E+16,Dera Nawab Branch,Bahawalpur,Bahawalpur,Shahiwala Disty,D,405
