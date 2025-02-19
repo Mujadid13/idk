@@ -1,85 +1,76 @@
-import sys
+import os
 import json
 import geopandas as gpd
 from shapely.geometry import Point
+from fastapi import FastAPI, HTTPException
 
-def check_user_inside_divisions(divisions_shp_path, user_lon, user_lat):
-    """
-    1) Loads Divisions_RYK_Area.shp (polygons),
-    2) Checks if the user is inside each polygon,
-    3) Returns a GeoDataFrame with a column 'user_inside'
-       plus a boolean indicating if the user is in any division.
-    """
-    gdf_div = gpd.read_file(divisions_shp_path)
-    
-    # Ensure it's in EPSG:4326 if user coords are lon/lat
+# Initialize FastAPI app
+app = FastAPI()
+
+# Paths to your SHP files (Make sure these exist inside Render)
+DIVISIONS_SHP_PATH = "data/Divisions_RYK_Area.shp"
+NETWORK_SHP_PATH = "data/Irrigation_Network_RYK_Area.shp"
+
+
+def check_user_inside_divisions(user_lon, user_lat):
+    """Check if the user is inside any division polygon."""
+    if not os.path.exists(DIVISIONS_SHP_PATH):
+        raise HTTPException(status_code=500, detail=f"{DIVISIONS_SHP_PATH} not found")
+
+    gdf_div = gpd.read_file(DIVISIONS_SHP_PATH)
+
+    # Ensure CRS is EPSG:4326 (lat/lon)
     if gdf_div.crs != "EPSG:4326":
         gdf_div = gdf_div.to_crs(epsg=4326)
-    
-    # Create a Shapely Point from the user's coordinates
+
     user_point = Point(user_lon, user_lat)
-    
-    # Check if user_point is inside each polygon
+
+    # Check if user is inside any division
     gdf_div["user_inside"] = gdf_div.geometry.contains(user_point)
-    
-    # Flag to indicate if user is inside any polygon
     user_in_any_polygon = gdf_div["user_inside"].any()
-    
-    return gdf_div, user_in_any_polygon
+
+    return user_in_any_polygon
 
 
-def find_nearest_canals(network_shp_path, user_lon, user_lat, k=3):
-    """
-    Finds the k nearest canals to the user's location.
-    Returns a list of canal names.
-    """
-    gdf_net = gpd.read_file(network_shp_path)
+def find_nearest_canals(user_lon, user_lat, k=3):
+    """Find the k nearest canals to the user's location."""
+    if not os.path.exists(NETWORK_SHP_PATH):
+        raise HTTPException(status_code=500, detail=f"{NETWORK_SHP_PATH} not found")
+
+    gdf_net = gpd.read_file(NETWORK_SHP_PATH)
 
     # Ensure CRS is EPSG:4326
     if gdf_net.crs != "EPSG:4326":
         gdf_net = gdf_net.to_crs(epsg=4326)
 
-    # Remove empty or invalid geometries
-    gdf_net = gdf_net[~gdf_net.geometry.is_empty].copy()
+    # Remove empty geometries
     gdf_net = gdf_net.dropna(subset=["geometry"]).copy()
 
     user_point = Point(user_lon, user_lat)
 
-    # Calculate distance and get nearest k canals
+    # Calculate distances and find nearest canals
     gdf_net["dist_to_user"] = gdf_net.geometry.distance(user_point)
     nearest_canals = gdf_net.nsmallest(k, "dist_to_user")["CHANNEL_NA"].tolist()
 
     return nearest_canals
 
 
-if __name__ == "__main__":
+@app.get("/")
+def home():
+    return {"message": "FastAPI is running on Render!"}
+
+
+@app.get("/check-location")
+def check_location(lat: float, lon: float):
+    """API Endpoint to check user location and return nearest canals."""
     try:
-        # Read input arguments
-        divisions_shp_path = sys.argv[1]
-        network_shp_path = sys.argv[2]
-        position_raw = sys.argv[3] 
+        user_inside = check_user_inside_divisions(lon, lat)
 
-        position = json.loads(position_raw)
-
-        # ✅ Ensure position is a dictionary (not a list)
-        if isinstance(position, list):
-            position = {"lat": position[0], "lon": position[1]}
-
-        user_lon = position["lon"]
-        user_lat = position["lat"]
-    
-
-        # Check if user is inside any division
-        _, user_in_any_division = check_user_inside_divisions(divisions_shp_path, user_lon, user_lat)
-
-        if user_in_any_division:
-            nearest_canals = find_nearest_canals(network_shp_path, user_lon, user_lat, k=3)
-            result = nearest_canals
+        if user_inside:
+            nearest_canals = find_nearest_canals(lon, lat, k=3)
+            return {"nearest_canals": nearest_canals}
         else:
-            result = {"message": "You are not in the division"}
-
-        print(json.dumps(result))
-
+            return {"message": "You are not in the division"}
+    
     except Exception as e:
-        print(json.dumps({"error": str(e)}))
-
+        raise HTTPException(status_code=500, detail=str(e))
